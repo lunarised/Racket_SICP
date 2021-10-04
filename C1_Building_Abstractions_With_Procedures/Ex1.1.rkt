@@ -17,8 +17,13 @@
 16
 6
 16
+
+;;; Code to produce the answers
+
 ;10
+
 ;(+ 5 3 4)
+
 ;(- 9 1)
 
 ;(/ 6 2)
