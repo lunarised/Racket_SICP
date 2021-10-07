@@ -49,7 +49,7 @@ guess
 (sqrt-iter-weird (improve guess x) x)))
 
 
-(sqrt-iter-weird 10000 36)
+(sqrt-iter-weird 10000 36) ;;; tAKES LONG TIME TO RUN
 
 
 ;;; Whether or not the guess is close enough, with the weird new-if,
