@@ -41,7 +41,7 @@
 guess
 (sqrt-iter (improve guess x) x)))
 
-(sqrt-iter 10000 36)
+(sqrt-iter 10 36)
 
 (define (sqrt-iter-weird guess x)
 (new-if (good-enough? guess x)
@@ -49,7 +49,7 @@ guess
 (sqrt-iter-weird (improve guess x) x)))
 
 
-(sqrt-iter-weird 10000 36) ;;; tAKES LONG TIME TO RUN
+(sqrt-iter-weird 6 36) ;;; WILL NEVER FINISH
 
 
 ;;; Whether or not the guess is close enough, with the weird new-if,
