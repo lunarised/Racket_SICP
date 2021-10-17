@@ -16,21 +16,12 @@
 
 
 (define (recursive-fizz-buzz x n f b)
-
-    (display x)
     (if (< x n)
-    (
-    (cond 
-        ((and (= (modulo x f) 0) (= (modulo x b) 0) ) (display "fizzbuzz" ) )
-        ((= (modulo x f) 0) (display "fizz")  )
-        ((=  (modulo x b) 0) (display "buzz") )
-        (else (display x)   )
+        (begin
+            (display (fizzBuzzer x f b))
+            (display "\n")
+            (recursive-fizz-buzz (+ x 1) n f b )
     )
-    (display "\n")
-
-    (recursive-fizz-buzz (+ x 1) n f b )
-    )
-    #f
     )
 )
 
