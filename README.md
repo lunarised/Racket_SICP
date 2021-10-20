@@ -1,7 +1,7 @@
 # SICP Learning
 
 ## Goals
-- [ ] Get as far as I can through SICP before December 1st 2021
+- [ ] Get as far as I can through SICP before Christmas 2021
 - [ ] Make sure I can understand every chapter before  I move onto the next one
 - [ ] Aim to find ways to transfer knowledge obtained from SICP into LCL and other projects I'm working on
 - [ ] Aim to better understand the fundimentals of compilation, functional programming and data structures at a low level
