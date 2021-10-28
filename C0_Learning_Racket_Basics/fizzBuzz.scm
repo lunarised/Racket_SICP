@@ -20,7 +20,7 @@
         (begin
             (display (fizzBuzzer x f b))
             (display "\n")
-            (recursive-fizz-buzz (+ x 1) n f b )
+            (recursive-fizz-buzz (inc x) n f b )
     )
     )
 )
@@ -29,4 +29,4 @@
 
 (fizzBuzz 3 5 (list 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32))
 
-(recursive-fizz-buzz 1 10 3 5)
+(recursive-fizz-buzz 1 20 3 5)
