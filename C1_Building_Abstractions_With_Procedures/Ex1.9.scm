@@ -2,7 +2,7 @@
 (define (+recursive a b) 
     (if (= a 0)
     b
-    (inc(+(dec a) b))
+    (inc(+recursive (dec a) b))
     ))
 
 ;;;(+ 4 5)
