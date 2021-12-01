@@ -13,7 +13,7 @@
 (tribonacci 5)
 
 
-(define (trib n)
+(define (trib n) 
     (define (iterTrib i a b c)
         (if (= i 0)
             a
