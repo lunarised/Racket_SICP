@@ -1,8 +1,10 @@
 #lang sicp
 
 (define (fast-exp b n)
-    (fast-exp-recur b n)
-    (fast-exp-iter b n 1))
+(begin
+    (display (fast-exp-recur b n)) 
+    (newline)
+    (display (fast-exp-iter b n 1))))
 
 
 (define (fast-exp-iter b n p)
