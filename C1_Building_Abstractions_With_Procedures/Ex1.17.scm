@@ -1,8 +1,7 @@
 #lang sicp
 
 (define (fast-mult x y)
-(begin
-    (display (fast-mult-recur x y))))
+    (display (fast-mult-recur x y)))
 
 
     
